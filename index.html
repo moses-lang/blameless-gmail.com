@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yangani Secondary School</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Adding Ionicons Library -->
+    <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" type="module"></script>
+    <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" nomodule></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <h2>YSS</h2>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Admissions</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Welcome to <br><span>Yangani Secondary School</span></h1>
+        <p>Your path to excellence starts here. <br> Providing quality education for your bright future.</p>
+        <button class="btn"><a href="#">Join Us</a></button>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="feature-box">
+            <ion-icon name="school-outline"></ion-icon>
+            <h3>Quality Education</h3>
+            <p>We provide the best curriculum to ensure students excel academically.</p>
+        </div>
+        <div class="feature-box">
+            <ion-icon name="people-outline"></ion-icon>
+            <h3>Experienced Staff</h3>
+            <p>Our teachers are highly qualified and dedicated to student success.</p>
+        </div>
+        <div class="feature-box">
+            <ion-icon name="book-outline"></ion-icon>
+            <h3>Modern Library</h3>
+            <p>A state-of-the-art library with books and resources for all learners.</p>
+        </div>
+    </section>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <h1>Welcome to <br><span>Yangani Secondary School</span></h1>
+        <p>Greetings from Yangani Secondary School! We are dedicated to providing quality education that shapes bright futures.</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>Yangani Secondary School is located in the Bidibidi refugee settlement in Uganda. It was established as part of the Lasting Education Achievements Responding to Needs (LEARN) project, which was funded by the Bureau of Population, 
+        Refugees, and Migration (BPRM). The school was constructed by Finn Church Aid (FCA) to address the lack of secondary education opportunities in the area. The initiative aimed to provide inclusive and equitable education for both refugees 
+        and the host community. The school includes modern facilities such as classroom blocks, staff accommodations, an administration block, a library, and sanitation facilities. These efforts have significantly improved access to quality education in the region.
+        Yangani Secondary School is located in Odravu, within Aringa County, in Yumbe District, Northern Uganda. This region is part of the West Nile Sub-Region, known for its efforts to provide education to both refugees and the host community. 
+        The school plays a vital role in fostering learning and development in this area.</p>
+    </section>
+
+    <!-- Admission Section -->
+    <section id="admission" class="admission">
+        <h2>Admissions</h2>
+        <form>
+            <!-- Select O'Level or A'Level -->
+            <label for="level">Level:</label>
+            <select id="level" name="level" required>
+                <option value="">Select Level</option>
+                <option value="olevel">O'Level</option>
+                <option value="alevel">A'Level</option>
+            </select>
+            
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="">Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" placeholder="Enter your age" required>
+
+            <label for="nationality">Nationality:</label>
+            <input type="text" id="nationality" name="nationality" placeholder="Enter your nationality" required>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+
+            <button type="submit" class="btn">Submit Application</button>
+        </form>
+    </section>
+    
+    <!-- Contact Section -->
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <div class="social-icons">
+            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a>
+        </div>
+    </section>
+</body>
+</html>
