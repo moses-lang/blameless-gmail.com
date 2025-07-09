@@ -1,0 +1,317 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blameless Tech@ssistance</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f7f9;
+      color: #333;
+    }
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background-color: #3498db;
+      color: white;
+      padding: 80px 40px;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+    }
+    .cta-button {
+      background-color: #2ecc71;
+      color: white;
+      padding: 15px 30px;
+      font-size: 1em;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    section {
+      padding: 60px 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .services ul {
+      list-style: none;
+      padding: 0;
+    }
+    .services li {
+      margin-bottom: 15px;
+      font-size: 1.1em;
+    }
+    #booking {
+      background-color: #ecf0f1;
+      padding: 60px 40px;
+      max-width: 600px;
+      margin: auto;
+      border-radius: 8px;
+    }
+    #booking form {
+      display: flex;
+      flex-direction: column;
+    }
+    #booking label {
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    #booking input,
+    #booking textarea {
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1em;
+    }
+    #booking button {
+      margin-top: 20px;
+      padding: 12px;
+      background-color: #2ecc71;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+    #booking button:hover {
+      background-color: #27ae60;
+    }
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h2>Blameless Tech@ssistance</h2>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#services">Services</a>
+      <a href="#booking">Book</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>Tech Help, Right When You Need It</h1>
+    <p>Your trusted online tech support partner in Yumbe District and beyond.</p>
+    <a href="#booking" class="cta-button">Book a Service</a>
+  </div>
+
+  <section>
+    <h2>Our Mission</h2>
+    <p><em>"We grow by helping each other."</em></p>
+    <p>At Blameless Tech@ssistance, we empower our community through accessible, reliable, and friendly tech support. No jargon. No stress. Just solutions.</p>
+  </section>
+
+  <section id="services" class="services">
+    <h2>What We Offer</h2>
+    <ul>
+      <li>💻 Remote troubleshooting for computers and mobile devices</li>
+      <li>📱 App and software setup assistance</li>
+      <li>🌐 Internet and connectivity support</li>
+      <li>🔒 Digital safety and privacy guidance</li>
+      <li>🧠 Tech education and training for all ages</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Serving Uganda, Starting in Yumbe</h2>
+    <p>We're proud to support individuals, families, and small businesses across Uganda -- starting with our home in Yumbe District.</p>
+  </section>
+
+  <section id="booking">
+    <h2>Book a Service</h2>
+    <p>Fill out the form below and we'll get back to you as soon as possible.</p>
+    <form action="https://formspree.io/f/yourformid" method="POST">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="service">Service Needed:</label>
+      <textarea id="service" name="service" rows="4" required></textarea>
+
+      <input type="text" name="_gotcha" style="display:none">
+      <button type="submit">Submit Booking</button>
+    </form>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>📍 Yumbe District, Uganda</p>
+    <p>📧 mosesbida0922@gmail.com</p>
+    <p>📞 +256-760-736-130</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Blameless Tech@ssistance. All rights reserved.</p>
+  </footer>
+
+</body>
+</html><style>/* Reset & Base Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f7f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #3498db, #2980b9);
+  color: white;
+  padding: 80px 40px;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 2.8em;
+}
+.hero p {
+  font-size: 1.2em;
+  margin: 20px 0;
+}
+.cta-button {
+  background-color: #2ecc71;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.cta-button:hover {
+  background-color: #27ae60;
+}
+
+/* Sections */
+section {
+  padding: 60px 40px;
+  max-width: 1000px;
+  margin: auto;
+}
+.services ul {
+  list-style: none;
+  padding: 0;
+}
+.services li {
+  margin-bottom: 15px;
+  font-size: 1.1em;
+}
+
+/* Booking Form */
+#booking {
+  background-color: #ecf0f1;
+  border-radius: 8px;
+}
+#booking form {
+  display: flex;
+  flex-direction: column;
+}
+#booking label {
+  margin-top: 15px;
+  font-weight: bold;
+}
+#booking input,
+#booking textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+}
+#booking button {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+}
+#booking button:hover {
+  background-color: #27ae60;
+}
+
+/* Footer */
+footer {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+/* Responsive */</style><script><script>
+// Smooth scroll for navigation links
+document.querySelectorAll('nav a[href^="#"]').forEach(link => {
+  link.addEventListener('click', function(e) {
+    e.preventDefault();
+    const target = document.querySelector(this.getAttribute('href'));
+    if (target) {
+      target.scrollIntoView({ behavior: 'smooth' });
+    }
+  });
+});
+
+// Simple form confirmation (client-side only)
+const form = document.querySelector('#booking form');
+form.addEventListener('submit', function(e) {
+  alert('Thank you for booking with Blameless Tech@ssistance! We'll contact you shortly.');
+});
+</script></script>
